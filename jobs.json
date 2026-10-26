@@ -1,0 +1,12 @@
+{
+  "capacity_kw": 40,
+  "jobs": [
+    {"name": "llm_finetune_v3", "kind": "fine_tuning", "duration_hours": 3, "power_kw": 9.5, "deadline_hours": 20},
+    {"name": "vision_model_training", "kind": "model_training", "duration_hours": 6, "power_kw": 14, "deadline_hours": 24},
+    {"name": "nightly_batch_inference", "kind": "batch_inference", "duration_hours": 2, "power_kw": 5, "deadline_hours": 16},
+    {"name": "regression_eval_suite", "kind": "evaluation_suite", "duration_hours": 1, "power_kw": 3, "deadline_hours": 10},
+    {"name": "feature_store_rebuild", "kind": "data_preprocessing", "duration_hours": 2.5, "power_kw": 1.5, "deadline_hours": 22},
+    {"name": "embeddings_refresh", "kind": "batch_inference", "duration_hours": 1.5, "power_kw": 4, "deadline_hours": 12},
+    {"name": "hotfix_model_redeploy", "kind": "batch_inference", "duration_hours": 0.5, "power_kw": 2, "deadline_hours": 2, "urgent": true}
+  ]
+}

@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Downloaded data, trained models and run outputs (rebuilt by `python run.py`)
+data/
+models/
+outputs/
+
+# macOS
+.DS_Store
